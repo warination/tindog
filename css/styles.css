@@ -74,17 +74,29 @@ p{
 
 /* title image */
 
+.tposition{
+    position: relative;
+}
+
 .title-image{
-    width: 60%;
+    width: 50%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /* features  section */
 
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
+
+.feature-index{
+    
+}
 .feature-box{
     text-align: center;
     padding: 3%;
@@ -132,3 +144,14 @@ p{
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+#pricing{
+    text-align: center;
+    padding: 7% 5%;
+
+}
+
+.pricing-card>div{
+    padding: 10px;
+}
+    
